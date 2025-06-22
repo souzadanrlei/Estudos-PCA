@@ -97,4 +97,4 @@ _"Por que esse serviço está lento?"_ ou _"Qual o impacto dessa falha?"_
 
 ---
 
-##### ✨ **Próximo tópico**: [📉 Pull vs Push / Service Discovery](Pull-vs-Pull-Service-Discovery/README.md)
+##### ✨ **Próximo tópico**: [📉 Pull vs Push / Service Discovery]('../Pull-vs-Pull-Service-Discovery/README.md')
