@@ -13,7 +13,7 @@
 |------|-------------------------------|-------------------------------------------------------------------------------|
 | Seg  | [📊 Conceitos de Observabilidade](./Conceitos-de-Observabilidade/README.md) | SLI, SLO, SLA, métricas, logs, tracing. Estude o "Golden Triangle".           |
 | Ter  | [📉 Pull vs Push / Service Discovery](./Pull-vs-Push-Service-Discovery/README.md) | Entenda como Prometheus coleta dados, autodiscovery, targets.            |
-| Qua  | 🧠 Data Model do Prometheus   | Métricas: Counter, Gauge, Histogram, Summary. Labels.                        |
+| Qua  | [🧠 Data Model do Prometheus](./Data-Model-do-Prometheus/README.md)   | Métricas: Counter, Gauge, Histogram, Summary. Labels.                        |
 | Qui  | 🔧 Prometheus Internals       | TSDB, scrape intervals, retenção, arquitetura.                                |
 | Sex  | ⚙️ Configuração básica        | `prometheus.yml`, jobs, targets, relabel.                                     |
 | Dom  | 🧪 Revisão e Simulado Parcial (38%) | Faça exercícios do LFS241, Udemy ou GitHub.                             |
