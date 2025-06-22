@@ -1,0 +1,17 @@
+global:
+  scrape_interval: "15s"
+  evaluation_interval: "15s"
+#criando o service discovery com Kubernets
+scrape_configs:
+  - job_name: 'kubernets-node'
+    kubernetes_sd_configs:
+      - role: node
+    relabel_configs:
+      - source_labels: [__address__]
+        regex: '(.*):12345'
+        replacement: '${1}:XPTO'
+        target_label: 'localhost:xpto'
+#Criando o push gateway        
+  - job_name: 'pushgateway'
+    static_configs:
+      - targets: ['pushgateway:XPTO']
