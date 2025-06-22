@@ -52,7 +52,7 @@ memory_usage_bytes{pod="api-server"} 832478208
 
 xemplo (auto gerado por SDKs):
 
-![alt text](image-2.png)
+![alt text](image-1.png)
 
 - Use funções como rate() e histogram_quantile() no PromQL.
 
@@ -77,7 +77,7 @@ http_request_duration_seconds{quantile="0.95"} 0.423
 
 **🧪 Exemplo prático real (em Go)**
 
-![alt text](image-3.png)
+![alt text](image.png)
 
 **🔎 Visualizando no Prometheus**
 
