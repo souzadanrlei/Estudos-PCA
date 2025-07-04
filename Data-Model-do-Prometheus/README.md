@@ -106,66 +106,70 @@ sum by (method) (rate(http_requests_total[1m]))
 # 📘 Simulado Oficial — PCA (10 questões)
 
 **1. Qual das seguintes afirmações sobre métricas do tipo Counter são verdadeiras? (Escolha todas que se aplicam)**
-a) Podem aumentar ou diminuir ao longo do tempo
-b) São redefinidas para zero ao reiniciar a aplicação
-c) Devem ser usadas para contar eventos acumulativos
-d) Calculam automaticamente a média dos valores
+- a) Podem aumentar ou diminuir ao longo do tempo
+- b) São redefinidas para zero ao reiniciar a aplicação
+- c) Devem ser usadas para contar eventos acumulativos
+- d) Calculam automaticamente a média dos valores
 
 **2. Quais são características corretas de uma Gauge? (Escolha todas que se aplicam)**
-a) Pode aumentar ou diminuir
-b) Ideal para uso de CPU e memória
-c) É reiniciada a cada coleta
-d) Armazena distribuição de valores em buckets
+- a) Pode aumentar ou diminuir
+- b) Ideal para uso de CPU e memória
+- c) É reiniciada a cada coleta
+- d) Armazena distribuição de valores em buckets
+- 
 **3. Dada a seguinte métrica:**
 ```
 http_requests_total{method="GET", status="200", job="frontend"}
 ```
 Quantos labels essa métrica possui?
-a) 1
-b) 2
-c) 3
-d) 4
+
+- a) 1
+- b) 2
+- c) 3
+- d) 4
 **4. Quais ferramentas ou funcionalidades o Prometheus oferece para lidar com service discovery? (Escolha todas que se aplicam)**
-a) static_configs
-b) Kubernetes Service Discovery (kubernetes_sd_configs)
-c) PushGateway
-d) DNS SRV lookup
+- a) static_configs
+- b) Kubernetes Service Discovery (kubernetes_sd_configs)
+- c) PushGateway
+- d) DNS SRV lookup
 
 **5. Qual é a função da seguinte consulta PromQL?**
+
 ```
 rate(http_requests_total[5m])
 ```
-a) Calcula a média dos tempos de resposta
-b) Exibe o total de requisições nos últimos 5 minutos
-c) Retorna a taxa de crescimento por segundo da métrica
-d) Agrupa as métricas por status code
+- a) Calcula a média dos tempos de resposta
+- b) Exibe o total de requisições nos últimos 5 minutos
+- c) Retorna a taxa de crescimento por segundo da métrica
+- d) Agrupa as métricas por status code
 
 **6. Quais são as diferenças principais entre Histogram e Summary? (Escolha todas que se aplicam)**
-a) Summary calcula percentis diretamente no exporter
-b) Histogram é mais fácil de agregar entre instâncias
-c) Summary permite usar histogram_quantile() no PromQL
-d) Histogram trabalha com buckets pré-definidos
+- a) Summary calcula percentis diretamente no exporter
+- b) Histogram é mais fácil de agregar entre instâncias
+- c) Summary permite usar histogram_quantile() no PromQL
+- d) Histogram trabalha com buckets pré-definidos
 
 **7. Por que é uma má prática adicionar um label como user_id em uma métrica?**
-a) Labels precisam ser números, e user_id pode ser string
-b) Pode causar alta cardinalidade, dificultando performance
-c) Labels com underscore (_) não são suportados
-d) Porque o Prometheus remove automaticamente labels únicos
+- a) Labels precisam ser números, e user_id pode ser string
+- b) Pode causar alta cardinalidade, dificultando performance
+- c) Labels com underscore (_) não são suportados
+- d) Porque o Prometheus remove automaticamente labels únicos
 
 **8. Ao reiniciar um exporter, você percebe que a métrica my_app_total_errors foi reiniciada para zero. Qual tipo de métrica isso indica?**
-a) Gauge
-b) Counter
-c) Histogram
-d) Summary
+- a) Gauge
+- b) Counter
+- c) Histogram
+- d) Summary
 
 **9. Quais das métricas abaixo indicam que você está lidando com um Histogram? (Escolha todas que se aplicam)**
-a) http_request_duration_seconds_sum
-b) http_request_duration_seconds_bucket{le="0.5"}
-c) http_request_duration_seconds{quantile="0.95"}
-d) http_request_duration_seconds_count
+- a) http_request_duration_seconds_sum
+- b) http_request_duration_seconds_bucket{le="0.5"}
+- c) http_request_duration_seconds{quantile="0.95"}
+- d) http_request_duration_seconds_count
+
 
 **10. Qual das opções abaixo melhor descreve o propósito de labels em Prometheus?**
-a) Adicionam contexto às métricas e permitem agrupamento no PromQL
-b) Servem apenas para identificar o nome da métrica
-c) São usados para definir quando uma métrica é resetada
-d) São aplicáveis somente a métricas do tipo Gauge e Histogram
+- a) Adicionam contexto às métricas e permitem agrupamento no PromQL
+- b) Servem apenas para identificar o nome da métrica
+- c) São usados para definir quando uma métrica é resetada
+- d) São aplicáveis somente a métricas do tipo Gauge e Histogram
