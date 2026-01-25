@@ -16,7 +16,7 @@
 | Qua  | [🧠 Data Model do Prometheus](./Data-Model-do-Prometheus/README.md)   | Métricas: Counter, Gauge, Histogram, Summary. Labels.                        |
 | Qui  | [🔧 Prometheus Internals](./Prometheus%20Internals/README.md)       | TSDB, scrape intervals, retenção, arquitetura.                                |
 | Sex  | [⚙️ Configuração básica](./Configuração%20Básica%20do%20Prometheus/README.md)        | `prometheus.yml`, jobs, targets, relabel.                                     |
-| Dom  | 🧪 Revisão e Simulado Parcial (38%) | Faça exercícios do LFS241, Udemy ou GitHub.                             |
+| Dom  | [🧪 Revisão e Simulado Parcial (38%)](./Revisao-Semana-1/README.md) | Faça exercícios do LFS241, Udemy ou GitHub.                             |
 
 ---
 
