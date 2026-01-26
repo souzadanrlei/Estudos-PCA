@@ -25,12 +25,12 @@
 
 | Dia  | Tema                          | Ação sugerida                                                                 |
 |------|-------------------------------|-------------------------------------------------------------------------------|
-| Seg  | 📐 Sintaxe básica PromQL      | Como fazer queries simples, `up`, `rate()`, `sum()`, `avg()`                  |
-| Ter  | 🔄 Operadores e filtros       | `by()`, `without()`, `offset`, `ignoring`, `group_left`                       |
-| Qua  | 🧮 Funções importantes        | `rate()`, `irate()`, `increase()`, `avg_over_time()` etc.                     |
-| Qui  | 📊 Agregações e agrupamentos | `sum`, `min`, `max`, `count`, `count_over_time`                               |
-| Sex  | 🧪 Exercícios práticos        | Resolva queries reais, dashboards reais (Grafana Labs Play)                   |
-| Dom  | 🧪 Simulado + revisão intensiva PromQL | Valide pontos fracos, repita queries no Prometheus Playground        |
+| Seg  | [📐 Sintaxe básica PromQL](./Sintaxe%20básica%20PromQL/README.md)      | Como fazer queries simples, `up`, `rate()`, `sum()`, `avg()`                  |
+| Ter  | [🔄 Operadores e filtros](./Operadores%20e%20Filtros/)       | `by()`, `without()`, `offset`, `ignoring`, `group_left`                       |
+| Qua  | 🧮 [Funções importantes](./Funções%20importantes/README.md)        | `rate()`, `irate()`, `increase()`, `avg_over_time()` etc.                     |
+| Qui  | [📊 Agregações e agrupamentos](./Agregações%20e%20Agrupamentos%20no%20PromQL/README.md) | `sum`, `min`, `max`, `count`, `count_over_time`                               |
+| Sex  | 🧪 [Exercícios práticos](https://play.grafana.org/d/to6j8mh/grafana-play-home?orgId=1&from=now-6h&to=now&timezone=utc)        | Resolva queries reais, dashboards reais (Grafana Labs Play)                   |
+| Dom  | [🧪 Simulado + revisão intensiva PromQL](./Revisao-Semana-2/README.md) | Valide pontos fracos, repita queries no Prometheus Playground        |
 
 ---
 
